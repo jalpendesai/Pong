@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 947
+  controlID: 3347
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 948
+  controlID: 3348
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 949
+  controlID: 3349
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,7 +392,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 8efbffff00000000
+    m_ExpandedIDs: 9cfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,14 +442,14 @@ MonoBehaviour:
     width: 465
     height: 383
   m_SceneLighting: 1
-  lastFramingTime: 0
+  lastFramingTime: 1402.4209320226528
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.111015126, y: 0.36602572, z: -0.0078125}
+    m_Target: {x: -0.4257941, y: 5.6979733, z: 0.01171875}
     speed: 2
-    m_Value: {x: -0.111015126, y: 0.36602572, z: -0.0078125}
+    m_Value: {x: -0.4257941, y: 5.6979733, z: 0.01171875}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -476,9 +476,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.007463
+    m_Target: 1.6088736
     speed: 2
-    m_Value: 12.007463
+    m_Value: 1.6088736
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -554,19 +554,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Jalpen Desai\Documents\GitHub\Pong_Homework
+  m_LastProjectPath: C:\Users\Jalpen Desai\Documents\GitHub\Pong\Pong_Homework
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24270000
-    m_LastClickedID: 10020
-    m_ExpandedIDs: 0000000024270000ffffff7f
+    m_SelectedIDs: 64270000
+    m_LastClickedID: 10084
+    m_ExpandedIDs: 000000002e270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,7 +594,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000024270000ffffff7f
+    m_ExpandedIDs: 000000002e270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,7 +638,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
