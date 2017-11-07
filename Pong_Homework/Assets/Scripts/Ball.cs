@@ -13,13 +13,19 @@ public class Ball : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(transform.position.x < -10f)
+		if(transform.position.x > 10f)
         {
+            transform.position = Vector2.zero;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            Scoreboard.instance.PlayerOneScored();
             StartCoroutine(Pause());
         }
 
-        if (transform.position.x > 10f)
+        if (transform.position.x < -10f)
         {
+            transform.position = Vector2.zero;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            Scoreboard.instance.PlayerTwoScored();
             StartCoroutine(Pause());
         }
     }
@@ -35,6 +41,7 @@ public class Ball : MonoBehaviour {
 
     IEnumerator Pause()
     {
+        
         yield return new WaitForSeconds(2.5f);
         LaunchBall();
     }
