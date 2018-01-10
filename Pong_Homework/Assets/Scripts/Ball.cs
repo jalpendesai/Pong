@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
-    public float speed = 5f; 
+    public float speed = 5f;
+    public AudioClip onHit;
 	// Use this for initialization
 	void Start () {
         LaunchBall();
@@ -44,5 +45,14 @@ public class Ball : MonoBehaviour {
         
         yield return new WaitForSeconds(2.5f);
         LaunchBall();
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        
+        if(col.gameObject.tag == "Player")
+        {
+            GetComponent<AudioSource>().PlayOneShot(onHit);
+        }
     }
 }

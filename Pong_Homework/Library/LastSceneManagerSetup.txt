@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Pong1.1.unity
+- path: D:/Games/pongpector-master/pongpector-master/Assets/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
